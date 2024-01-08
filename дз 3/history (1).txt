@@ -1,0 +1,16 @@
+   0 mkdir -p /root/test3/newfolder
+   1 df -h > /root/test3/newfolder/myfile.txt
+   2 cat /etc/group
+   3 cat /etc/group | head -9
+   4 history| head -9 >> /root/test3/newfolder/myfile.txt
+   5 cat /root/test3/newfolder/myfile.txt
+   6 tail -3 /etc/group | wc -c >> root/test3/newfolder/myfile.txt
+   7 cat /etc/group | tail -3
+   8 df -h | grep
+   9 grep -w
+  10 cat /etc/group | grep -w
+  11 tal -n 3 /etc/group | wc -c
+  12 tail -n 3 /etc/group | wc -c
+  13 tal -n 3 /etc/group | wc -c >> /root/test3/newfolder/myfile.txt
+  14 tail -n 3 /etc/group | wc -c >> /root/test3/newfolder/myfile.txt
+  15 history > history.txt
